@@ -116,9 +116,16 @@
               "devServerTarget": "ejercicio-servicios-ang:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "ejercicio-servicios-ang"
+  "defaultProject": "ejercicio-servicios-ang",
+  "cli": {
+    "analytics": false
+  }
 }
